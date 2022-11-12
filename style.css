@@ -1,0 +1,114 @@
+:root {
+  --blue: #bce0de;
+  --down-button-bg: #f05454;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: sans-serif;
+}
+
+nav {
+  box-shadow: 0 2px 20px rgb(202, 245, 255);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/** Home **/
+
+.hero-container {
+  background: url(./images/waves.jpg);
+  height: 95vh;
+  background-size: 100vw 220vh;
+  background-repeat: repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 20px;
+}
+.hero-image {
+  width: 400px;
+  margin-bottom: 30px;
+}
+.hero-image img {
+  width: 100%;
+  box-shadow: 0px 2px 5px var(--blue);
+  border-radius: 50%;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+.hero-brandname {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.hero-brandtag {
+  font-size: 30px;
+}
+.hero-brand-message {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.hero-text a {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  background: #000;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 160px;
+  text-align: center;
+}
+
+/** Downloads **/
+
+.down-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 20px;
+  margin: 10px 5%;
+  padding: 10px;
+  background-image: linear-gradient(to right, var(--blue), rgb(220, 250, 250));
+  border-radius: 100px;
+}
+.down-item-text1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.down-item-text2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.down-item a {
+  padding: 7px 15px;
+  background: var(--down-button-bg);
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+/** Footer **/
+
+.footer-container {
+  background: linear-gradient(to top, black, rgb(74, 72, 72));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-container img:nth-child(1) {
+  margin: 20px 0 30px;
+  width: 80px;
+}
