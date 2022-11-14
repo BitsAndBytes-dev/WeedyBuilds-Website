@@ -21,7 +21,7 @@ a {
 /** Home **/
 
 .hero-container {
-  background: url(./images/waves.jpg);
+  background: url(./images/waves.png);
   height: 95vh;
   background-size: 100vw 220vh;
   background-repeat: repeat;
