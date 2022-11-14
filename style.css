@@ -37,7 +37,7 @@ a {
 }
 .hero-image img {
   width: 100%;
-  box-shadow: 0px 2px 5px var(--blue);
+  box-shadow: 0px 0px 0px var(--blue);
   border-radius: 50%;
 }
 .hero-text {
