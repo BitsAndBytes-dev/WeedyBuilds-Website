@@ -119,6 +119,8 @@ a {
 
 .footer-container {
   display: flex;
+  border-top: 3px solid black;
+  margin: 0 10% 0 10%;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
