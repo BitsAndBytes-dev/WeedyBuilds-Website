@@ -119,22 +119,34 @@ a {
 
 .footer-container {
   display: flex;
-  border-top: 3px solid black;
-  margin: 0 8% 0 8%;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-.footer-container img:nth-child(1) {
-  margin-top: 10px;
-  margin-bottom: 25px;
-  width: 40px;
+
+.footer-outline {
+  width: 84%;
+  height: 3px;
+  background: black;
+  margin: 0 8%;
 }
 
-@media only screen and (max-width: 600px){
-.wd-body {
-  background: url(./images/waves1.jpg);
-  background-size: 100vw 220vh;
-  background-repeat: repeat;
- }
+.footer-container a img {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wd-body {
+    background: url(./images/waves1.jpg);
+    background-size: 100vw 220vh;
+    background-repeat: repeat;
+  }
+  .hero-container,
+  .download-container,
+  .footer-container {
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+  }
 }
