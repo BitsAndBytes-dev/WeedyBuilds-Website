@@ -17,6 +17,12 @@ a {
   color: black;
   text-decoration: none;
 }
+.wd-body {
+  background: url(./images/waves.png);
+  background-size: 100vw 220vh;
+  background-repeat: repeat;
+}
+
 
 /** Home **/
 
@@ -76,6 +82,9 @@ a {
 
 /** Downloads **/
 
+.download-container {
+  padding-top: 10px;
+}
 .down-item {
   display: flex;
   flex-direction: column;
@@ -109,13 +118,13 @@ a {
 /** Footer **/
 
 .footer-container {
-  background: linear-gradient(to top, black, rgb(74, 72, 72));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 .footer-container img:nth-child(1) {
-  margin: 20px 0 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
   width: 80px;
 }
