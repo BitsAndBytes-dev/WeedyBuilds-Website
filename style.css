@@ -143,10 +143,9 @@ a {
     background-size: 100vw 220vh;
     background-repeat: repeat;
   }
-  .hero-container,
-  .download-container,
-  .footer-container {
+  .wd-body-blur {
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
   }
 }
+
